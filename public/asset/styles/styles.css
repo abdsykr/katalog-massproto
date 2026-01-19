@@ -1,0 +1,1069 @@
+/* ==============================
+   Base
+============================== */
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h2 {
+    color: #0b4121;
+}
+
+/* ==============================
+   Navbar
+============================== */
+nav {
+    background-color: #018004;
+}
+
+.navbaritem .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* link spacing */
+nav ul li a {
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* active menu */
+nav ul li a.active {
+    border-bottom: 2px solid #c7e7e9;
+    padding-bottom: 5px;
+    border-radius: 0;
+}
+
+/* hover */
+nav ul li a:hover {
+    background-color: rgb(11, 161, 36);
+    border-radius: 5px;
+}
+
+/* ==============================
+   Navbar Fix Color
+============================== */
+.navbaritem .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbaritem .nav-link:hover,
+.navbaritem .nav-link.active {
+    color: #c7e7e9;
+}
+
+
+/* ==============================
+   Carousel
+============================== */
+.carousel {
+    margin-top: 70px;
+}
+
+/* ==============================
+   Global Card
+============================== */
+.card {
+    border-style: none;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: 600;
+    color: #0b4121;
+}
+
+.card i {
+    font-size: 80px;
+    margin: 20px;
+    color: rgb(11, 161, 36);
+}
+
+/* ==============================
+   Button / Tombol
+============================== */
+.tombol {
+    display: inline-block;
+    background-color: #018004;
+    padding: 5px 15px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tombol:hover {
+    transform: scale(1.05);
+}
+
+/* ==============================
+   Konten-2 (Heading + Logo)
+============================== */
+.konten-2 {
+    margin: 50px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.konten-2 img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.konten-2 h2 {
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.konten-2 h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* ==============================
+   Konten-3 (Home Highlight Cards)
+============================== */
+.konten-3 {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.konten-3 .card {
+    max-width: 250px;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.konten-3 .card i {
+    font-size: 50px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.konten-3 .card h3 {
+    font-size: 20px;
+}
+
+.konten-3 .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.konten-3 .col-md-4 {
+    flex: 1 1 22%;
+    max-width: 25%;
+}
+
+/* ==============================
+   Konten-4 (Program Unggulan)
+============================== */
+.konten-4 {
+    font-size: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(11, 161, 36);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.container-progam {
+    padding: 60px 20px;
+}
+
+.container-progam h2 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #0b4121;
+}
+
+/* Card expand style */
+.list-hide {
+    transition: all 0.4s ease-in-out;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: rgb(11, 161, 36);
+    color: white;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.list-hide h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.list-hide p {
+    display: none;
+    padding: 20px;
+    font-size: 15px;
+    background-color: #018004;
+    color: white;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.list-hide:hover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.list-hide:hover p {
+    display: block;
+}
+
+/* ==============================
+   Konten-5 (Kenapa Harus...)
+============================== */
+.konten-5 {
+    background-color: #018004;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.konten-5 h2 {
+    font-weight: 500;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.konten-5 .card {
+    padding: 5px;
+    margin: 20px;
+}
+
+.konten-5 h5 {
+    margin-bottom: 20px;
+}
+
+/* ==============================
+   Konten-6 (Testimoni)
+============================== */
+.konten-6 {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.konten-6 h2 {
+    padding-top: 30px;
+    font-weight: 600;
+    color: #018004;
+    margin-bottom: 15px;
+}
+
+.konten-6 p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.konten-6 i {
+    font-size: 80px;
+    margin: 20px;
+    color: rgb(11, 161, 36);
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+    margin: 10px;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-icon i {
+    font-size: 50px;
+    color: #018004;
+    margin-bottom: 15px;
+}
+
+.testimonial-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* ==============================
+   Konten-7 (Berita)
+============================== */
+.konten-7 {
+    margin: 50px 0;
+}
+
+.konten-7 h2 {
+    font-weight: 600;
+    color: #0b4121;
+    margin-bottom: 30px;
+}
+
+.konten-7 .card {
+    border: none;
+}
+
+.konten-7 .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ==============================
+   Footer + Copyright
+============================== */
+.footer {
+    background-color: #018004;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.footer img {
+    width: 130px;
+    height: 40px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .icon-text i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.footer .social-icons a {
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    background-color: #0b6a31;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ==============================
+   PROFIL Page
+============================== */
+.konten1-profil {
+    margin: 50px;
+    padding: 10px;
+}
+
+.konten1-profil img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.konten1-profil h2 {
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.konten1-profil h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.profil-container {
+    padding: 80px;
+    background-color: #f9f9f9;
+}
+
+.text-profil i {
+    font-size: 80px;
+    margin: 20px;
+    color: rgb(11, 161, 36);
+}
+
+.text-profil {
+    text-align: justify;
+}
+
+.text-profil h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.text-profil h4 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.video-container {
+    margin: 100px;
+    gap: 50px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container h2 {
+    font-weight: 800;
+}
+
+.video-profil {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.konten-visimisi {
+    padding: 50px;
+    text-align: left;
+    background-color: #018004;
+}
+
+.konten-visimisi h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.konten-visimisi p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.profil-4 i {
+    font-size: 80px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.profil-5 {
+    margin: 50px;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profil-5 h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.kontak-kami h2 {
+    font-weight: 700;
+    color: #0b4121;
+    margin-bottom: 10px;
+}
+
+.kontak-kami p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Social media bubbles */
+.sosmed {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sosmed .card {
+    margin: 10px;
+    background-color: #0b4121;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.sosmed .card:hover {
+    background-color: #0c1a11;
+}
+
+.sosmed a {
+    text-decoration: none;
+}
+
+.sosmed .card i {
+    color: #f8f9fa;
+    font-size: 24px;
+}
+
+/* ==============================
+   Page Header (Kurikulum & Ekskul)  ✅ FIX LOGO BESAR
+============================== */
+.konten1-pem {
+    margin: 50px;
+    margin-top: 100px; /* supaya tidak ketutup navbar fixed-top */
+    padding: 10px;
+}
+
+.konten1-pem img {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+}
+
+.konten1-pem h2 {
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.konten1-pem h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* ==============================
+   Kurikulum / Peminatan
+============================== */
+.konten-pem1 {
+    margin: 30px;
+}
+
+.konten-pem1 a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.peminatan :hover {
+    transform: scale(1.05);
+}
+
+.konten-pem2 {
+    margin: 30px;
+}
+
+.curriculum-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.curriculum-section h2 {
+    font-weight: 700;
+    color: #0b4121;
+    margin-bottom: 20px;
+}
+
+.curriculum-section .card {
+    margin: 15px;
+}
+
+.tabs-content-pem {
+    display: flex;
+}
+
+.list-hide-pem {
+    transition: all 0.4s ease-in-out;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: white;
+    color: rgb(11, 161, 36);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    max-width: 500px;
+}
+
+.list-hide-pem h2 {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #018004;
+    color: white;
+}
+
+.list-hide-pem ul {
+    padding-left: 20px;
+}
+
+.list-hide-pem .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+}
+
+/* ==============================
+   Contact Section
+============================== */
+section.contact {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    padding: 120px;
+}
+
+section.contact h2 {
+    font-weight: 700;
+    color: #0b4121;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section.contact form {
+    background-color: #018004;
+    padding: 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+section.contact form input {
+    width: 100%;
+    height: 40px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+section.contact form textarea {
+    width: 100%;
+    height: 220px;
+    max-height: 280px;
+    min-height: 220px;
+    background-color: #f9f9f9;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+section.contact form input:focus,
+section.contact form textarea:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #000;
+    background-color: white;
+}
+
+section.contact form input::placeholder,
+section.contact form textarea::placeholder {
+    color: #000;
+}
+
+section.contact form button {
+    background-color: #0b4121;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+/* ==============================
+   Ekskul Page
+============================== */
+.konten-ekskul {
+    background-color: #018004;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.konten-ekskul h2 {
+    font-weight: 500;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.konten-ekskul .card {
+    padding: 5px;
+    margin: 20px;
+}
+
+.konten-ekskul .card:hover {
+    transform: scale(1.05);
+}
+
+.konten-ekskul a {
+    text-decoration: none;
+}
+
+.konten-ekskul h5 {
+    margin-bottom: 20px;
+    color: #0b4121;
+}
+
+.ekskul {
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    color: #0b4121;
+}
+
+.ekskul p {
+    text-align: center;
+}
+
+.ekskul-card p {
+    text-align: left;
+}
+
+.ekskul-card {
+    margin-top: 30px;
+}
+
+.ekskul i {
+    font-size: 80px;
+    margin: 20px;
+    color: rgb(11, 161, 36);
+}
+
+.ekskul .card-title {
+    padding-top: 20px;
+}
+
+/* ==============================
+   Galeri
+============================== */
+.galeri {
+    padding: 2rem;
+}
+
+.galeri i {
+    font-size: 80px;
+    margin: 20px;
+    color: rgb(11, 161, 36);
+}
+
+.galeri p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.text-galeri {
+    text-align: center;
+}
+
+.galeri img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.galeri img:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+/* ==============================
+   PPDB Page
+============================== */
+.konten-alur {
+    background-color: #018004;
+    padding: 40px;
+}
+
+.konten-alur h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.konten-alur,
+.konten-jalur {
+    margin: 40px 0;
+}
+
+.konten-jalur h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.konten-ppdb {
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.konten-ppdb .card {
+    max-width: 250px;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.konten-ppdb .card i {
+    font-size: 50px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.konten-ppdb .card h3 {
+    font-size: 20px;
+}
+
+.konten-ppdb .container .row {
+    display: flex;
+    justify-content: center;
+}
+
+/* ==============================
+   Form Register
+============================== */
+.form-container {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    margin-top: 100px;
+    max-width: 1300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2,
+.form-container h3 {
+    font-weight: 600;
+}
+
+.form-container h3 {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+/* modal */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* ==============================
+   Responsive (Mobile)
+============================== */
+@media (max-width: 780px) {
+
+    .konten-3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .konten-2 h2 {
+        font-size: 30px;
+    }
+
+    .konten-2 h3 {
+        font-size: 10px;
+    }
+
+    .tombol {
+        max-width: 90px;
+        max-height: 25px;
+        font-size: 10px;
+    }
+
+    /* konten-3 grid */
+    .konten-3 .col-md-4 {
+        max-width: 45%;
+        margin: 10px;
+        max-height: 100px;
+    }
+
+    .konten-3 .card i {
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .konten-3 .card h3 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* profil mobile */
+    .konten1-profil {
+        margin: 50px;
+        margin-top: 25%;
+        padding: 10px;
+    }
+
+    .konten1-profil h2 {
+        font-size: 30px;
+    }
+
+    .konten1-profil h3 {
+        font-size: 20px;
+    }
+
+    .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .text-profil {
+        text-align: left;
+        padding: 30px;
+    }
+
+    /* page header pem (kurikulum/ekskul) */
+    .konten1-pem {
+        margin: 30px;
+        margin-top: 25%;
+        padding: 10px;
+    }
+
+    .konten1-pem img {
+        width: 180px;
+    }
+
+    .konten1-pem h2 {
+        font-size: 30px;
+    }
+
+    .konten1-pem h3 {
+        font-size: 16px;
+    }
+
+    /* contact mobile */
+    section.contact form {
+        margin-bottom: 30px;
+    }
+
+    /* ppdb mobile */
+    .konten-ppdb {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .konten-ppdb .card i {
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .konten-ppdb .card h3 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Contact small screen tweak */
+@media screen and (max-width: 767px) {
+    section.contact form {
+        margin-bottom: 30px;
+    }
+}
